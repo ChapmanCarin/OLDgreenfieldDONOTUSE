@@ -1,4 +1,4 @@
-const mysql = require('mysql2');
+const mysql = require('mysql');
 // did some research and mysql2 seems better than mysql so using it here instead
 
 const databaseConnection = mysql.createConnection({
